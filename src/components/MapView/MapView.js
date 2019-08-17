@@ -6,7 +6,7 @@ import UseMyLocation from "../UseMyLocation/UseMyLocation";
 
 export default function MapView() {
   return (
-    <div className="MapView">
+    <div id="map-view" className="MapView">
       Map with restaurants
       <div className="SearchBoxContainer">
         <SearchBox />

@@ -4,7 +4,6 @@ module.exports = async function globalSetup() {
   await setupDevServer({
     command: `yarn start`,
     launchTimeout: 50000,
-    port: 3000,
-    verbose: true
+    port: 3000
   });
 };

@@ -18,7 +18,7 @@ afterAll(async () => {
 });
 
 test("should render list of restaurants in both list and map views", async () => {
-  await page.focus("input");
+  await page.focus("#search-box");
   await page.keyboard.type(RESTAURANT_NAME);
   await page.keyboard.press("Enter");
   await page.waitForResponse(
