@@ -1,0 +1,9 @@
+.Restaurant {
+  padding: 8px 16px;
+  width: 300px;
+}
+
+.RestaurantName {
+  font-size: 16px;
+  font-weight: bold;
+}
