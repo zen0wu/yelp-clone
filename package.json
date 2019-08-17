@@ -7,6 +7,14 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
+  "devDependencies": {
+    "jest-dev-server": "^4.3.0",
+    "puppeteer": "^1.19.0"
+  },
+  "jest": {
+    "globalSetup": "./global-setup.js",
+    "globalTeardown": "./global-teardown.js"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
